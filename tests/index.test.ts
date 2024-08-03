@@ -1,26 +1,12 @@
-const {} = require("");
+import { mults3or5 } from "../mults3or5";
 
-describe("", () => {
+describe("Multiples of 3 or 5", () => {
    beforeAll(() => {
    });
-   describe("", () => {
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
+   describe("Listed", () => {
+	  test.todo("Should be equal to the given array of numbers.");
    });
-   describe("", () => {
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
-	  test.todo("", () => {
-	  });
+   describe("Summed", () => {
+	  test.todo("Should be equal to the given number.");
    });
 });

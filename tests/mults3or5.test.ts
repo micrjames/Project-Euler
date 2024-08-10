@@ -13,7 +13,7 @@ describe("Multiples of 3 or 5", () => {
 	  });
 	  describe("Summed", () => {
 		 test(`Should be equal to the sum, ${sum}.`, () => {
-			expect(getSum(n)).toBe(sum);
+			expect(mults3or5(n)).toBe(sum);
 		 });
 	  });
    });
@@ -28,7 +28,7 @@ describe("Multiples of 3 or 5", () => {
 	  });
 	  describe("Summed", () => {
 		 test(`Should be equal to the sum, ${sum}.`, () => {
-			expect(getSum(n)).toBe(sum);
+			expect(mults3or5(n)).toBe(sum);
 		 });
 	  });
    });

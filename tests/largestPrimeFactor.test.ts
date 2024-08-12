@@ -9,7 +9,7 @@ describe("The Largest Prime Factor", () => {
 		 value = largestPrimeFactor(n);
 	  });
 	  describe("Factored", () => {
-		 test(`Should be equal to the value, ${value}.`);
+		 test.todo(`Should be equal to the value, ${value}.`);
 	  });
    });
    describe("of 600851475143", () => {
@@ -20,7 +20,7 @@ describe("The Largest Prime Factor", () => {
 		 value = largestPrimeFactor(n);
 	  });
 	  describe("Factored", () => {
-		 test(`Should be equal to the value, ${value}.`);
+		 test.todo(`Should be equal to the value, ${value}.`);
 	  });
    });
 });

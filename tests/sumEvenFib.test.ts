@@ -1,6 +1,5 @@
 import { sumEvenFib } from "../sumEvenFib";
 import { getEvenFibs } from "../utils/getEvenFibs";
-import { Fibonacci } from "../../Fibonacci/Fibonacci";
 
 describe("Sum of Even-valued Fibonacci Series", () => {
    describe("Less than 10", () => {
@@ -9,7 +8,6 @@ describe("Sum of Even-valued Fibonacci Series", () => {
 	  let evenFibsSum: number;
 	  let sum: number;
 	  beforeAll(() => {
-		 console.log([...new Fibonacci(36)]);
 		 n = 10;
 		 maxValue = 40;
 		 evenFibsSum = getEvenFibs(n).reduce((acc, curr) => acc + curr);
@@ -34,7 +32,6 @@ describe("Sum of Even-valued Fibonacci Series", () => {
 	  });
 	  describe("Summed", () => {
 		 test(`Should be equal to the sum, ${sum}.`, () => {
-			console.log(sum, evenFibsSum);
 			expect(sum).toBe(evenFibsSum);
 		 });
 	  });

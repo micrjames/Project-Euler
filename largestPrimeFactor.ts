@@ -1,4 +1,4 @@
-import { Primes } from "../Primes/Primes";
+import { Primes } from "./Primes/Primes";
 
 // Largest Prime Factor
 // Problem 3.

@@ -1,4 +1,4 @@
-import { Fibonacci } from "../../Fibonacci/Fibonacci";
+import { Fibonacci } from "../Fibonacci/Fibonacci";
 
 export const getFibsUpToVal = (maxValue: number): number[] => {
    const fib: Fibonacci = new Fibonacci(Infinity);

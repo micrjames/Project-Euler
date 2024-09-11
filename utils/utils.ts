@@ -13,3 +13,6 @@ export const getSum = (n: number): number => {
 export const sumEls = (arr: number[]): number => {
    return arr.reduce((acc, curr) => acc + curr);
 };
+export const isPalindrome = (str: string): boolean => {
+   return false;
+};

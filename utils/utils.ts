@@ -13,6 +13,20 @@ export const getSum = (n: number): number => {
 export const sumEls = (arr: number[]): number => {
    return arr.reduce((acc, curr) => acc + curr);
 };
-export const isPalindrome = (str: string): boolean => {
-   return false;
+export const isPalindrome = (number: number): boolean => {
+   let digits: number[];
+   let digitsRev: number[];
+   digits = digitize(number);
+   digitsRev = [...digits].reverse();
+   return digits.every((digit, idx) => digit === digitsRev[idx]);
+};
+export const digitize = (number: number, base: number = 10): number[] => {
+   if(number === 0)
+	  return [0];
+   let digits: number[] = [];
+   while(number) {
+	  digits = [number % base, ...digits];
+	  number = Math.floor(number / base);
+   }
+   return digits; 
 };

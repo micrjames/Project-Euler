@@ -2,9 +2,8 @@ import { largestPalProd } from "../largestPalProd";
 
 describe("Largest Palindrome Product", () => {
    beforeAll(() => {
-	  const strings = ["doggies", "otto", "hannah"];
-	  for(let it = 0; it < strings.length; it++)
-	  	console.log(largestPalProd(strings[it]));
+	 const numbers = [12345, 80008, 44444];
+	 largestPalProd(-1);
    });
    describe("of two 2-digit numbers", () => {
 	  beforeAll(() => {
